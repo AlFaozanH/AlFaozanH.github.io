@@ -116,7 +116,31 @@
     <p>BSc in Computer Science & Engineering (CSE) Student | IIUC</p>
 
     
-    <img src="me.jpeg" alt="Hasan Al Faozan" style="width:160px;height:160px;border-radius:50%;margin-top:20px;border:4px solid white;" />
+    <div class="profile-wrapper">
+  <img src="me.jpeg" alt="Hasan Al Faozan" class="profile-card-img" />
+</div>
+
+<style>
+  .profile-card-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid white;
+    
+    object-fit: cover;  
+    object-position: center; 
+    
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    background-color: #f0f0f0;
+  }
+
+  .profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
 
     
     <div class="social">
