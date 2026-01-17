@@ -1,109 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasan Al Faozan - Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #1f1f1f;
-            color: #e5e5e5;
-            line-height: 1.6;
-            padding: 0 15px;
-        }
+  <!-- ================= CSS SECTION ================= -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+    }
 
-        header {
-            text-align: center;
-            padding: 40px 0;
-            border-bottom: 1px solid #333;
-        }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
-            color: #ffffff;
-        }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        header p {
-            opacity: 0.8;
-            margin-top: 5px;
-        }
+    section {
+      padding: 40px 20px;
+      background: white;
+      margin: 20px;
+      border-radius: 8px;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 30px 0;
-        }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
 
-        .photo {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+    .social a {
+      margin: 0 5px;
+      text-decoration: none;
+      color: #0077b5;
+    }
 
-        .photo img {
-            width: 160px;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 2px solid #444;
-        }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+    }
 
-        h2 {
-            margin-top: 40px;
-            border-bottom: 1px solid #444;
-            padding-bottom: 5px;
-            color: #ffffff;
-        }
-
-        a {
-            color: #6ea8ff;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            border-top: 1px solid #333;
-            opacity: 0.7;
-            margin-top: 30px;
-        }
-    </style>
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+    }
+  </style>
 </head>
-
 <body>
 
-    <header>
-        <h1>Hasan Al Faozan</h1>
-        <p>CSE Student • IIUC • 3rd Semester</p>
-    </header>
+  <!-- ================= HOME SECTION ================= -->
+  <header id="home">
+    <h1>Your Name</h1>
+    <p>Student | Developer | Designer</p>
 
-    <div class="container">
-
-        
-        <div class="photo">
-            <img src="me.jpeg" alt="My Photo">
-        </div>
-
-        
-        <h2>About Me</h2>
-        <p>
-            I am a student pursuing my B.Sc. in Computer Science and Engineering at IIUC.  
-            Currently in my 3rd semester, I am improving my programming skills in C++, Java,
-            and learning how to apply them to real-world problems.
-        </p>
-
-       
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:alfaozan2003@gmail.com">alfaozan2003@gmail.com</a></p>
-        <p>Phone: <a href="tel:+8801833327767">01833327767</a></p>
-
+    <!-- Social Profiles -->
+    <div class="social">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Facebook</a>
     </div>
 
-    <footer>
-        © 2025 Hasan Al Faozan
-    </footer>
+    <!-- CV Download -->
+    <p><a href="cv.pdf" download style="color:white;">Download CV</a></p>
 
+    <!-- Navigation Menu -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ================= ABOUT ME ================= -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This is dummy text about me. You can write about your background, skills, and interests.</p>
+  </section>
+
+  <!-- ================= EDUCATION ================= -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>BSc in Computer Science – XYZ University</li>
+      <li>HSC – ABC College</li>
+    </ul>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Project 1: Portfolio Website</p>
+    <p>Project 2: Simple JavaScript App</p>
+  </section>
+
+  <!-- ================= ACHIEVEMENTS ================= -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Programming Contest Participant</li>
+      <li>Online Course Certification</li>
+    </ul>
+  </section>
+
+  <!-- ================= BLOGS / HOBBIES ================= -->
+  <section id="blogs">
+    <h2>Blogs / Vlogs / Hobbies</h2>
+    <p>I like writing blogs, creating videos, and learning new technologies.</p>
+  </section>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>No publications yet (dummy data).</p>
+  </section>
+
+  <!-- ================= CONTACT FORM ================= -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <!-- Google Sheets Connected Form -->
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p id="formStatus"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name</p>
+  </footer>
+
+  <!-- ================= JAVASCRIPT SECTION ================= -->
+  <script>
+    // Form submission (Google Sheets integration placeholder)
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      document.getElementById("formStatus").innerText = "Message sent successfully (dummy).";
+    });
+
+    // Simple unit test example
+    function add(a, b) {
+      return a + b;
+    }
+
+    console.assert(add(2, 3) === 5, "Unit Test Failed: add function");
+  </script>
 </body>
 </html>
