@@ -30,10 +30,13 @@ Lists personal hobbies such as Video Gaming, Travelling, and Coding.
 
 ● Download CV
 
+Option to download CV as a PDF file.
+
 ● Contact Form
 
 Simple contact form with JavaScript-based submission message (no backend required).
 
+●●●●●● ●●●●●●
 
 🛠 Technologies Used
 
@@ -43,6 +46,4 @@ Simple contact form with JavaScript-based submission message (no backend require
 
 ● JavaScript – Contact form interaction
 
-● Download CV
 
-Option to download CV as a PDF file.
